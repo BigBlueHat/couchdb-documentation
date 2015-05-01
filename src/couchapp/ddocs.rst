@@ -300,7 +300,7 @@ friends in that question:
                             var key = escape(key);
                             content += ''.concat(
                                 '<' + key + '>',
-                                value
+                                value,
                                 '</' + key + '>'
                             )
                         }
